@@ -2,8 +2,8 @@ module.exports = Object.freeze({
     TOKEN: '850652041:AAGQaSvbmswdBuy-QHjYbHWz4Ucu7mLUbwk',
     ARIA_SECRET: '1',
     ARIA_PORT: 8210,
-    ARIA_DOWNLOAD_LOCATION: '/home/ru/down',
-    ARIA_DOWNLOAD_LOCATION_ROOT: '/home/ru', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
+    ARIA_DOWNLOAD_LOCATION: '/app/down',
+    ARIA_DOWNLOAD_LOCATION_ROOT: '/app', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
     ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
     ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
     GDRIVE_PARENT_DIR_ID: 'root',
